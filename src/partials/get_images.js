@@ -1,21 +1,7 @@
 import axios from 'axios';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
-// Notify.init({
-//   info: {
-//     background: '#26c0d3',
-//     textColor: '#fff',
-//     childClassName: 'notiflix-notify-info',
-//     notiflixIconColor: 'rgba(0,0,0,0.2)',
-//     fontAwesomeClassName: 'fas fa-info-circle',
-//     fontAwesomeIconColor: 'rgba(0,0,0,0.2)',
-//     backOverlayColor: 'rgba(38,192,211,0.2)',
-//     pauseOnHover: true,
-//     position: 'right-bottom',
-//   },
-// });
-
-const API_KEY = '35672310-4fd2f94d19936bfbbb81d2e8c';
+const API_KEY = '35952030-c7efeed90aa6c425dd1adb8c5';
 const BASE_URL = 'https://pixabay.com/api/';
 
 export let count = null;
